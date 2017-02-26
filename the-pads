@@ -1,0 +1,4 @@
+https://www.hackerrank.com/challenges/the-pads
+
+SELECT concat(Name,'(',left(Occupation,1),')') as New FROM Occupations ORDER BY New;
+SELECT concat('There are total ',count(Occupation),' ',lower(Occupation),'s.') as New FROM Occupations GROUP BY Occupation ORDER BY count(Occupation),Occupation;
