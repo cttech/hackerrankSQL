@@ -1,0 +1,4 @@
+https://www.hackerrank.com/challenges/weather-observation-station-5
+
+SELECT CITY, length(`CITY`) FROM STATION order by length(`CITY`) ASC limit 1;
+SELECT CITY, length(`CITY`) FROM STATION order by length(`CITY`) DESC limit 1;
